@@ -2,8 +2,6 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require 'jshint-gem/version'
-
 Gem::Specification.new do |s|
   s.name = "JSHint"
   s.version = "0.1.2"
